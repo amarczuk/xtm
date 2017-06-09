@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Discount Ascii Warehouse</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Discount Ascii Warehouse</h1>
+
+            <p>Here you're sure to find a bargain on some of the finest ascii available to purchase. Be sure to peruse our selection of ascii faces in an exciting range of sizes and prices.</p>
+
+            <p>But first, a word from our sponsors:</p> <div class="advert"></div>
+        </header>
+
+        <section class="filters">
+            <div>Sort by:
+                <select onchange="AsciiShop && AsciiShop.filter(this.value)" id="sortby">
+                    <option value='id'>id</option>
+                    <option value='price'>price</option>
+                    <option value='size'>size</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="products">
+            
+        </section>
+
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bluebird/3.5.0/bluebird.min.js"></script>
+        <script type="text/javascript" src="js/ascii-main.js"></script>
+        <script type="text/javascript" src="js/ascii-request.js"></script>
+        <script type="text/javascript" src="js/ascii-template.js"></script>
+        <script type="text/javascript" src="js/ascii-ads.js"></script>
+
+        <script type="text/javascript">
+        (function() {
+            AsciiShop.init();
+        }());
+        </script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "discount-ascii-warehouse",
+  "private": true,
+  "version": "0.3.0",
+  "description": "For all your ascii needs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "karma start karma.conf.js",
+    "test-casper": "casperjs test test/casper/endToEnd.js"
+  },
+  "author": "Adam Marczuk (frontend)",
+  "license": "test",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4",
+    "ecstatic": "^1.4.0"
+  },
+  "devDependencies": {
+    "casperjs": "^1.1.4",
+    "jasmine-core": "^2.6.3",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "simple-mock": "^0.8.0"
+  }
+}

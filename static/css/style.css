@@ -1,0 +1,82 @@
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #666;
+    background: #fff;
+}
+
+.spinner {
+    text-align: center;
+}
+
+.products {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.product, .page {
+    display: inline-block;
+    width: 320px;
+    height: 210px;
+    overflow: hidden;
+    margin: 0 10px;
+    border: 2px solid #eee;
+}
+
+.page {
+    height: 160px;
+    border: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.product .face {
+    height: 110px;
+    width: 320px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background: #eee;
+    overflow: hidden;
+}
+
+.product .price, .product .size {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.product .price {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+    background: #365d9b;
+    color: #fff;
+}
+
+.product .date {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.ad {
+    padding: 5px 0;
+}
+
+.advert {
+    width: 324px;
+    height: 204px;
+    margin: 10px auto;
+    border: 1px solid #eee;
+}
+
+.advert .ad {
+    padding: 2px;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+    margin: 15px 0;
+    background: #eaf2ff;
+    font-weight: bold;
+}
